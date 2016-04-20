@@ -21,13 +21,13 @@ Prior to installing **Node-Angular-Admin-LTE2** you need to install the followin
 Download (or clone) it from GitHub at https://github.com/ghostspook/node-angular-admin-lte2
 
 #### Get the required components:
-After downloading do the followin:
+After downloading the project files follow these steps:
 - Open Terminal
-- Install the required node modules using npm:
+- Install the required **node modules** using npm:
 ```
 npm install
 ```
-- On the public folder install the required bower components:
+- Install the required **bower components** in the public folder:
 ```
 cd public
 bower install
