@@ -1,10 +1,37 @@
 
-Introduction
-============
+About This Project
+==================
 
 **Node-Angular-Admin-LTE2** is a port of the **AdminLTE 2** template by Abdullah Almsaeed. However, the starting point for this project was [fmatuszewski/angular-admin-lte2](https://github.com/fmatuszewski/angular-admin-lte2), which is a port of AdminLTE 2 to **AngularJS**.
 
 It uses **PassportJS** to provide OAuth2 authentication for Google Accounts.
+
+Installation
+------------
+To run **Node-Angular-Admin-LTE2** you will need **NodeJS**. To install the required components and modules you will neen **npm** (comes with NodeJS) and **bower**. Finally, you will need to set up your own **Client ID** and **Client Secret** in order to use Google Authentication.
+
+#### Requirements:
+
+Prior to installing **Node-Angular-Admin-LTE2** you need to install the following elements:
+- [Node JS](https://nodejs.org/en/)
+- [Bower](http://bower.io)
+
+#### Download:
+
+Download (or clone) it from GitHub at https://github.com/ghostspook/node-angular-admin-lte2
+
+#### Get the required components:
+After downloading do the followin:
+- Open Terminal
+- Install the required node modules using npm:
+```
+npm install
+```
+- On the public folder install the required bower components:
+```
+cd public
+bower install
+```
 
 About AdminLTE
 ===============
