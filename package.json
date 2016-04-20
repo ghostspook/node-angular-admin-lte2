@@ -1,0 +1,15 @@
+{
+  "name": "passport-google-oauth2-example",
+  "version": "0.0.0",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-nedb-session": "0.0.3",
+    "cookie-parser": "^1.4.1",
+    "ejs": ">= 0.0.0",
+    "express": ">= 0.0.0",
+    "express-ejs-layouts": "^2.0.0",
+    "express-session": "^1.13.0",
+    "passport": ">= 0.0.0",
+    "passport-google-oauth2": ">= 0.0.0"
+  }
+}
