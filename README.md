@@ -8,29 +8,46 @@ It uses **PassportJS** to provide OAuth2 authentication for Google Accounts.
 
 Installation
 ------------
-To run **Node-Angular-Admin-LTE2** you will need **NodeJS**. To install the required components and modules you will neen **npm** (comes with NodeJS) and **bower**. Finally, you will need to set up your own **Client ID** and **Client Secret** in order to use Google Authentication.
+To run **Node-Angular-Admin-LTE2** you will need **NodeJS**. To install the required components and modules you will neen **npm** (comes with NodeJS) and **bower**. Finally, you will need to set up your own **Client ID** and **Client Secret** in order to use Google Authentication. Follow these 4 steps to accomplish all this:
 
-#### Requirements:
+#### 1) Install the requirements:
 
 Prior to installing **Node-Angular-Admin-LTE2** you need to install the following elements:
 - [Node JS](https://nodejs.org/en/)
 - [Bower](http://bower.io)
 
-#### Download:
+#### 2) Download the files:
 
 Download (or clone) it from GitHub at https://github.com/ghostspook/node-angular-admin-lte2
 
-#### Get the required components:
-After downloading the project files follow these steps:
+#### 3) Install the dependencies:
+Do the following:
 - Open Terminal
-- Install the required **node modules** using npm:
+- Install the referenced **node modules** using npm:
 ```
 npm install
 ```
-- Install the required **bower components** in the public folder:
+- Install the referenced **bower components** in the public folder:
 ```
 cd public
 bower install
+```
+
+Running the application
+-----------------------
+Open Terminal and run the application by typing
+```
+node app.js
+```
+Then visit http://localhost:3000 to run the application. You will have to authenticate using a Google Account in order to access the AngularJS Single-page-Application itself.
+
+#### 4) Obtain and set the necessary OAuth credentials
+
+Visit the [Google Developers Console](https://console.developers.google.com/) to get OAuth 2.0 credentials for your web application. These credentials include a client ID and a client secret that are known to both Google and your application. Then go and update the following lines in **app.js** the code with the provided credentials:
+
+```
+var GOOGLE_CLIENT_ID      = "--GOOGLE CLIENT ID GOES HERE--"
+  , GOOGLE_CLIENT_SECRET  = "--GOOGLE CLIENT SECRET GOES HERE--";
 ```
 
 About AdminLTE
